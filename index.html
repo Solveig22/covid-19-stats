@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/minireset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Covid-19 Statistique</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+    <script src="./assets/js/app.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="./index.html" class="header-brand">Covid-19-Stats</a>
+            <nav class="header__nav">
+                <a href="./index.html">Accueil</a>
+                <a href="#">Pays</a>
+                <a href="#">Test</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="covid-global-stats">
+            <div class="section-title">
+                Vue d'ensemble des cas
+            </div>
+            <div class="stat-title-daily stats-title">
+                Statistiques par jour
+            </div>
+            <div class="stat">
+                <div class="stat-title">
+                    Nouveau cas confirmé
+                </div>
+                <span class="stat-value"></span>
+            </div>
+            <div class="stat">
+                <div class="stat-title">
+                    Nouveau cas de guérison
+                </div>
+                <span class="stat-value"></span>
+            </div>
+            <div class="stat">
+                <div class="stat-title">
+                    Nouveau cas de décés
+                </div>
+                <span class="stat-value"></span>
+            </div>
+            <div class="stat-title-global stats-title">
+                Statistiques totale
+            </div>
+            <div class="stat">
+                <div class="stat-title">
+                    Confirmé
+                </div>
+                <span class="stat-value"></span>
+            </div>
+            <div class="stat">
+                <div class="stat-title">
+                    Décés
+                </div>
+                <span class="stat-value"></span>
+            </div>
+            <div class="stat">
+                <div class="stat-title">
+                    Personnes guéries
+                </div>
+                <span class="stat-value"></span>
+            </div>
+        </div>
+        <div class="country-stats">
+            <h1>Statistique par pays</h1>
+            <table class="country-stats--table">
+                <thead>
+                    <th>#</th>
+                    <th>pays</th>
+                    <th>Nouveau cas</th>
+                    <th>Nouveau décés</th>
+                    <th>Nouvelle guérison</th>
+                    <th>Tot. confirmé</th>
+                    <th>Tot. décés</th>
+                    <th>Tot. guérison</th>
+                </thead>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
